@@ -45,10 +45,9 @@ section:last-child {
 <div id='features'>
     <section id='welcome' class='active'>
         <h3>Tere tulemast!</h3>
-        <p>Welcome to my Estonian tourmap! A guide can only say so much. <br><br>🤖 And they tend to feel robotic, don't they? <br><br>Resumaps are designed to fill the gaps in your resume. If you want to stand out, a resumap is a fun way to help people get to know you. After all, wouldn't you want to know who you're hiring? So if you want see more, sit back, relax, and enjoy the flight 🚀</p>
-    </section>
+        <p>Welcome to my Estonian tourmap! This is a demo, mixing Mapbox and some highlights of a beautiful country!</section>
     <section id='section1' class='active'>
-        <h3>Section 1</h3>
+        <h3>Tallinn</h3>
         <p>Here's where you can add a narrative to take your resume to the next level. Where did you come from? What really brought you there? What made you leave? This is to let people get a glimpse of who the person behind the paper is. This is New Mexico...but you can center your map however you want.
     </section>
     <section id='section2'>
@@ -57,19 +56,19 @@ section:last-child {
     </section>
     <section id='section3'>
         <h3>Section 3</h3>
-        <p>Kopu Lighthouse?<br><br> <img src="https://i.imgur.com/NF8af.jpg"><br><br></p>
+        <p>Kõpu Lighthouse<br><br> <img src="https://i.imgur.com/NF8af.jpg"><br><br></p>
     </section>
     <section id='section4'>
-        <h3>Section 4</h3>
-        <p>Or even gifs! <br><br><iframe src="https://giphy.com/embed/fpXxIjftmkk9y" width="224" height="240" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p></p>
+        <h3>Kuressaare</h3>
+        <p>A beautiful city, an amazing island <br><br><iframe src="https://giphy.com/embed/fpXxIjftmkk9y" width="224" height="240" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p></p>
         </p>
     </section>
     <section id='section5'>
-        <h3>Section 5</h3>
+        <h3>Pirita</h3>
         <p>Or videos! WHAT!<br><br><iframe width="560" height="315" src="https://www.youtube.com/embed/le0BLAEO93g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> </p>
     </section>
     <section id='section6'>
-        <h3>Section 6</h3>
+        <h3>Tartu</h3>
         <p>The most important thing is to tell <i>your</i> story. What makes you you?</p>
     </section>
     <section id='section7'>
@@ -112,7 +111,7 @@ var map = new mapboxgl.Map({
     'section3': {
         bearing: 12.80,
         center: [22.199710,58.916875],
-        zoom: 13.5,
+        zoom: 12,
         speed: 0.6,
         pitch: 45
     },
@@ -139,10 +138,10 @@ var map = new mapboxgl.Map({
     },
     'section7': {
         bearing: -0,
-        center: [24.738975, 59.451088],
-        zoom: 8,
+        center: [25.758814, 58.639817],
+        zoom: 7,
         speed: 0.8,
-        pitch: 0
+        pitch: 30
     },
 };
 // On every scroll event, check which element is on screen
